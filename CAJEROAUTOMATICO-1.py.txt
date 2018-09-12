@@ -1,0 +1,9 @@
+contraseña=["1234"]
+intento=3
+
+while True:
+    print("CAJERO AUTOMATICO ---UNCETAVOMAS---")
+    opcion=input("INTRODUCIR  CONTRASEÑA: ")
+    if not (opcion in contraseña):
+        print("ESTA CONTRASEÑA NO ES CORREPTA")
+        input (" ENTER PARA INTERTAR DE NUEVO.")
